@@ -1,0 +1,213 @@
+	/*
+	| ----------------------------------------------------------------------------------
+	| This code developed for donate mate web apps in Sanitation Hackathon 2012.
+	| ----------------------------------------------------------------------------------
+	| Author: Thouhedul Islam Suchi
+	| Email: tisuchi@gmail.com
+	| URI : http://tisuchi.wordpress.com
+	| Cell: +8801710823643
+	| Copyright: all rights researved by author.
+	*/
+
+
+	/*
+	| --------------------------------------------------------------------------
+	|  Main style page
+	| --------------------------------------------------------------------------
+	|
+	*/
+
+
+
+	@import url('bootstrap.css');
+
+
+
+
+	/*------------- main style code are going here ----------------------*/
+	.wrapper{
+		width: 100%;
+		height: auto;
+		height: auto;
+		background: #edf2f1;
+	}
+
+	.wrapper_main{
+		width: 960px;
+		height: auto;
+		border: 1px solid #dae3e3;
+		background: #f7f9f9;
+		margin: auto;
+	}
+
+	.logo{
+		width: 200px;
+		height: 100px;
+		float: left;
+		margin: -23px 0 0 0;
+	}
+	.dnavs{
+		float: left;
+	}
+
+	.welcome_slider{
+		clear: both;
+		width: 960px;
+		height: 520px;
+	}
+
+	.welcome_slider img{
+		clear: both;
+		width: 960px;
+		height: 520px;
+		margin: -33px 0 0 0;
+		z-index: -50;
+	}
+
+	.regi_div{
+		width: 400px;
+		height: 100px;
+		margin:-480px 0 30px 0;
+		background: #fff;
+	}
+
+	.regi_div h1{
+		/*font-family: 'Paprika', cursive;*/
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-size: 48px;
+	}
+
+	.regi_div p{
+		/*font-family: 'Paprika', cursive;*/
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-size: 26px;
+		color: #000;
+	}
+
+	.search_box{
+		clear: both;
+		margin: auto;
+		padding: 10px;
+		position: relative;
+		background: #fff;
+		opacity:0.5;
+		width: 700px;
+		height: 100px;
+		top: 30px;
+
+		border-radius: 10px;
+			-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+	}
+
+	.search_form{
+		width: 600px;
+		height: 70px;
+		margin: auto;
+		top: -20px;
+		position: relative;
+	}
+
+	#search_field{
+		width: 435px;
+		height: 35px;
+		padding: 4px 10px;
+		border-radius: 5px;
+			-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+		border: 0;
+		margin: -35px 0 0 0;
+	}
+
+	.d_btn{
+		margin: -35px 0 0 0;
+	}
+
+	.d_blog{
+		padding: 20px 20px;
+		height: 35px;
+		position: relative;
+		font-family: 'Paprika', arial;
+		font-size: 32px;
+		margin: 30px 0 20px 0;
+		text-align: center;
+	}
+
+	.d_footer{
+		margin: 0;
+		height: 100px;
+		background: #dae3e3;
+		border-bottom: 5px solid #263332;
+	}
+
+	.d_footer img{
+		margin: 15px 0 0 0;
+	}
+
+	.d_copyright {
+		margin: -45px 0 0 200px;
+	}
+
+
+
+
+
+
+	/*
+	|-------------------------------------------------------------------------
+	| This design for the SMS Blog
+	|-------------------------------------------------------------------------
+	*/
+
+	.blog_wrapper{
+		width:900px;
+		margin: auto;
+
+	}
+
+	.post_div{
+		width: inherit;
+		width: 850px;
+		padding: 10px;
+		background: #ebede0;
+		margin: 10px 0;
+		border: 1px solid #c8ceab;
+		border-bottom: 4px solid #c8ceab;
+		position: relative;
+	}
+
+	.post_div p{
+		position: relative;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+
+
+
+
+
+
+	/*
+	|-------------------------------------------------------------------------
+	| This design for the problem details
+	|-------------------------------------------------------------------------
+	*/
+
+	.d_table{
+		width: 700px;
+	}
+
+
+
+	/*
+	|-------------------------------------------------------------------------
+	| This design for the problem create
+	|-------------------------------------------------------------------------
+	*/
+
+	.create_problem_div{
+		margin: 20px 250px;
+		padding: 0;
+		clear: both;
+		position: relative;
+	}
